@@ -1,62 +1,105 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Box, Typography, Paper, Button, TextField, Grid, Chip, Divider } from '@mui/material';
+import { Box, Typography, Paper, Button, TextField, Grid, Chip, Divider, CircularProgress } from '@mui/material';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import { mockBusinesses } from '../utils/utils'; 
-import { Modal } from '../components/Modal'; 
-
-const mockTimeSlots = ["09:00", "10:00", "11:30", "14:00", "15:30", "17:00", "19:00", "20:30"];
+import { Business } from '../utils/utils';
+import { Modal } from '../components/Modal';
 
 export const BusinessDetailsPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const business = mockBusinesses.find(b => b.id === id);
+  const [business, setBusiness] = useState<Business | null>(null);
+  const [loading, setLoading] = useState(true);
 
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [selectedTime, setSelectedTime] = useState<string>('');
-  
+  const [availableSlots, setAvailableSlots] = useState<string[]>([]);
+  const [slotsLoading, setSlotsLoading] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  if (!business) {
-    return <Typography variant="h5" sx={{ mt: 5, textAlign: 'center' }}>İşletme bulunamadı.</Typography>;
-  }
-
 
   const getTodayString = () => new Date().toLocaleDateString('en-CA');
   const todayStr = getTodayString();
 
+  // Isletme detaylarini getir
+  useEffect(() => {
+    const fetchBusiness = async () => {
+      try {
+        const response = await fetch(`http://localhost:8080/api/businesses/${id}`);
+        if (response.ok) {
+          const data = await response.json();
+          setBusiness(data);
+        }
+      } catch (error) {
+        console.error("Isletme detaylari cekilemedi", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBusiness();
+  }, [id]);
 
-  const getAvailableSlots = () => {
-    if (!selectedDate) return [];
+  // Secilen tarihe gore bos saatleri hesaplat ve getir
+  useEffect(() => {
+    if (!selectedDate) {
+      setAvailableSlots([]);
+      return;
+    }
+    const fetchSlots = async () => {
+      setSlotsLoading(true);
+      try {
+        const response = await fetch(`http://localhost:8080/api/working-hours/${id}/slots?date=${selectedDate}&duration=60`);
+        if (response.ok) {
+          const data = await response.json();
+          setAvailableSlots(data.availableTimes || []);
+        } else {
+          setAvailableSlots([]);
+        }
+      } catch (error) {
+        console.error("Slotlar cekilemedi", error);
+        setAvailableSlots([]);
+      } finally {
+        setSlotsLoading(false);
+      }
+    };
+    fetchSlots();
+  }, [selectedDate, id]);
 
-    if (selectedDate > todayStr) return mockTimeSlots;
+  // Randevu kaydetme istegi gonder
+  const handleBooking = async () => {
+    if (!selectedDate || !selectedTime || !business) return;
 
-    const now = new Date();
-    const currentHour = now.getHours();
-    const currentMinute = now.getMinutes();
+    try {
+        const startDateTime = `${selectedDate}T${selectedTime}:00`;
+        const endHour = String(parseInt(selectedTime.split(':')[0]) + 1).padStart(2, '0');
+        const endDateTime = `${selectedDate}T${endHour}:${selectedTime.split(':')[1]}:00`;
 
-    return mockTimeSlots.filter(time => {
-      const [hour, min] = time.split(':').map(Number);
-      return hour > currentHour || (hour === currentHour && min > currentMinute);
-    });
-  };
+        const response = await fetch(`http://localhost:8080/api/appointments?customerId=1&businessId=${business.id}&serviceId=1&startTime=${startDateTime}&endTime=${endDateTime}`, {
+            method: 'POST'
+        });
 
-  const availableSlots = getAvailableSlots();
-
-  const handleBooking = () => {
-    if (!selectedDate || !selectedTime) return;
-    setIsModalOpen(true);
+        if (response.ok) {
+            setIsModalOpen(true);
+        } else {
+            const errorData = await response.json();
+            alert(`Randevu alınamadı: ${errorData.error}`);
+        }
+    } catch (error) {
+        console.error("Randevu kaydedilemedi", error);
+        alert("Bir hata oluştu.");
+    }
   };
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
-    navigate('/'); 
+    navigate('/');
   };
+
+  if (loading) return <Box sx={{ display: 'flex', justifyContent: 'center', mt: 10 }}><CircularProgress /></Box>;
+  if (!business) return <Typography variant="h5" sx={{ mt: 5, textAlign: 'center' }}>İşletme bulunamadı.</Typography>;
 
   return (
     <Box sx={{ mt: 5, mb: 10, display: 'flex', justifyContent: 'center' }}>
       <Paper elevation={3} sx={{ p: 4, width: '100%', maxWidth: 800, borderRadius: 3 }}>
-        
 
         <Box sx={{ mb: 4 }}>
           <Typography variant="h4" fontWeight="bold" color="primary" gutterBottom>
@@ -66,8 +109,8 @@ export const BusinessDetailsPage: React.FC = () => {
             {business.description}
           </Typography>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-            {business.services.map((service, idx) => (
-              <Chip key={idx} label={service} color="secondary" variant="outlined" />
+            {business.services && business.services.map((service: any, idx: number) => (
+              <Chip key={idx} label={service.name || service} color="secondary" variant="outlined" />
             ))}
           </Box>
         </Box>
@@ -77,7 +120,7 @@ export const BusinessDetailsPage: React.FC = () => {
         <Typography variant="h6" fontWeight="bold" gutterBottom>
           Tarih ve Saat Seçin
         </Typography>
-        
+
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
           <TextField
             label="Randevu Tarihi"
@@ -88,7 +131,7 @@ export const BusinessDetailsPage: React.FC = () => {
             value={selectedDate}
             onChange={(e) => {
               setSelectedDate(e.target.value);
-              setSelectedTime(''); 
+              setSelectedTime('');
             }}
           />
 
@@ -97,9 +140,12 @@ export const BusinessDetailsPage: React.FC = () => {
               <Typography variant="subtitle2" color="text.secondary" gutterBottom>
                 Uygun Saatler
               </Typography>
-              {availableSlots.length > 0 ? (
+              {slotsLoading ? (
+                  <CircularProgress size={24} />
+              ) : availableSlots.length > 0 ? (
                 <Grid container spacing={2}>
                   {availableSlots.map((time) => (
+                    // 'item' parametresi kaldirildi
                     <Grid key={time}>
                       <Button
                         variant={selectedTime === time ? "contained" : "outlined"}
@@ -114,7 +160,7 @@ export const BusinessDetailsPage: React.FC = () => {
                 </Grid>
               ) : (
                 <Typography color="error" variant="body2">
-                  Bugün için uygun saat kalmamıştır. Lütfen ileri bir tarih seçin.
+                  Bu tarih için uygun saat bulunmamaktadır.
                 </Typography>
               )}
             </Box>

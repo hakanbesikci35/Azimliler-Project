@@ -1,5 +1,6 @@
 package com.cutbook.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalTime;
@@ -14,6 +15,7 @@ public class WorkingHours {
 
     @ManyToOne
     @JoinColumn(name = "business_id", nullable = false)
+    @JsonIgnore // JSON ciktisi olusturulurken sonsuz donguyu engeller
     private Business business;
 
     @Column(name = "day_of_week", nullable = false)
