@@ -6,6 +6,7 @@ import { HomePage } from './pages/HomePage';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
 import { BusinessDetailsPage } from './pages/BusinessDetailsPage';
+import { OwnerDashboardPage } from './pages/OwnerDashboardPage';
 
 
 
@@ -44,6 +45,7 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/business/:id" element={<BusinessDetailsPage />} />
+            <Route path="/dashboard" element={<OwnerDashboardPage />} />
           </Routes>
         </Container>
       </Router>

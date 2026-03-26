@@ -1,15 +1,31 @@
 import React, { useState } from 'react';
 import { Box, Typography, TextField, Button, Paper, Link as MuiLink } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Giriş yapılıyor:", { email, password });
-    alert(`Giriş denemesi başarılı!\nE-posta: ${email}`);
+    try {
+      const response = await fetch('http://localhost:8080/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password })
+      });
+      if (response.ok) {
+        const data = await response.json();
+        localStorage.setItem('user', JSON.stringify(data));
+        if (data.role === 'OWNER') navigate('/dashboard');
+        else navigate('/');
+      } else {
+        alert("Giriş başarısız, bilgilerinizi kontrol edin.");
+      }
+    } catch (error) {
+      alert("Sunucuya bağlanılamadı.");
+    }
   };
 
   return (
@@ -18,50 +34,13 @@ export const LoginPage: React.FC = () => {
         <Typography variant="h5" component="h1" gutterBottom fontWeight="bold" textAlign="center" color="primary">
           CutBook'a Giriş Yap
         </Typography>
-        <Typography variant="body2" color="text.secondary" textAlign="center" sx={{ mb: 3 }}>
-          Randevularınızı yönetmek için hesabınıza erişin.
-        </Typography>
-
         <form onSubmit={handleLogin}>
-          <TextField
-            fullWidth
-            label="E-posta Adresi"
-            type="email"
-            variant="outlined"
-            margin="normal"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <TextField
-            fullWidth
-            label="Şifre"
-            type="password"
-            variant="outlined"
-            margin="normal"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            color="primary"
-            size="large"
-            sx={{ mt: 3, mb: 2 }}
-          >
-            Giriş Yap
-          </Button>
+          <TextField fullWidth label="E-posta" type="email" variant="outlined" margin="normal" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <TextField fullWidth label="Şifre" type="password" variant="outlined" margin="normal" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          <Button type="submit" fullWidth variant="contained" color="primary" sx={{ mt: 3, mb: 2 }}>Giriş Yap</Button>
         </form>
-
         <Box textAlign="center">
-          <Typography variant="body2">
-            Hesabınız yok mu?{' '}
-            <MuiLink component={Link} to="/register" underline="hover" fontWeight="bold">
-              Kayıt Olun
-            </MuiLink>
-          </Typography>
+          <Typography variant="body2">Hesabınız yok mu? <MuiLink component={Link} to="/register">Kayıt Olun</MuiLink></Typography>
         </Box>
       </Paper>
     </Box>
