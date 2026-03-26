@@ -4,7 +4,7 @@ export interface Business {
   description: string;
   phone?: string;
   address?: string;
-  services: string[];
+  services: any[];
 }
 
 export interface Appointment {

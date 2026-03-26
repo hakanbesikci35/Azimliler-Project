@@ -18,8 +18,15 @@ export const BusinessCard: React.FC<BusinessCardProps> = ({ business }) => {
           {business.description}
         </Typography>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-          {business.services.map((service, index) => (
-            <Chip key={index} label={service} size="small" variant="outlined" color="primary" />
+          {business.services && business.services.map((service: any, index: number) => (
+            <Chip
+              key={index}
+              // Eger service bir objeyse ismini yaz, metinse kendisini yaz
+              label={typeof service === 'object' ? service.name : service}
+              size="small"
+              variant="outlined"
+              color="primary"
+            />
           ))}
         </Box>
       </CardContent>
