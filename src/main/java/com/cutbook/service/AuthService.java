@@ -3,6 +3,9 @@ package com.cutbook.service;
 import com.cutbook.dto.AuthResponse;
 import com.cutbook.dto.LoginRequest;
 import com.cutbook.dto.RegisterRequest;
+import com.cutbook.exception.ConflictException;
+import com.cutbook.exception.ResourceNotFoundException;
+import com.cutbook.exception.UnauthorizedException;
 import com.cutbook.model.User;
 import com.cutbook.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -18,7 +21,7 @@ public class AuthService {
 
     public AuthResponse register(RegisterRequest request) {
         if (userRepository.existsByEmail(request.getEmail())) {
-            throw new RuntimeException("Bu email zaten kayıtlı");
+            throw new ConflictException("Bu email zaten kayıtlı");
         }
         User user = new User();
         user.setEmail(request.getEmail());
@@ -32,9 +35,9 @@ public class AuthService {
 
     public AuthResponse login(LoginRequest request) {
         User user = userRepository.findByEmail(request.getEmail())
-                .orElseThrow(() -> new RuntimeException("Kullanıcı bulunamadı"));
+                .orElseThrow(() -> new ResourceNotFoundException("Kullanıcı bulunamadı"));
         if (!passwordEncoder.matches(request.getPassword(), user.getPassword())) {
-            throw new RuntimeException("Hatalı şifre");
+            throw new UnauthorizedException("Hatalı şifre");
         }
 
         return new AuthResponse("token-placeholder", user.getEmail(), user.getRole().name(), user.getId());

@@ -1,5 +1,8 @@
 package com.cutbook.service;
 
+import com.cutbook.exception.BusinessRuleException;
+import com.cutbook.exception.ResourceNotFoundException;
+import com.cutbook.exception.UnauthorizedException;
 import com.cutbook.model.Appointment;
 import com.cutbook.model.Business;
 import com.cutbook.model.Service;
@@ -26,19 +29,19 @@ public class AppointmentService {
 
         // Geçmiş tarih kontrolü
         if (startTime.isBefore(LocalDateTime.now())) {
-            throw new RuntimeException("Geçmiş bir tarihe randevu oluşturamazsınız");
+            throw new BusinessRuleException("Geçmiş bir tarihe randevu oluşturamazsınız");
         }
 
         // Çakışma kontrolü
         if (appointmentRepository.existsConflict(businessId, startTime)) {
-            throw new RuntimeException("Bu saat dolu, lütfen başka bir saat seçin");
+            throw new BusinessRuleException("Bu saat dolu, lütfen başka bir saat seçin");
         }
 
         User customer = userRepository.findById(customerId)
-            .orElseThrow(() -> new RuntimeException("Kullanıcı bulunamadı"));
+            .orElseThrow(() -> new ResourceNotFoundException("Kullanıcı bulunamadı"));
 
         Business business = businessRepository.findById(businessId)
-            .orElseThrow(() -> new RuntimeException("İşletme bulunamadı"));
+            .orElseThrow(() -> new ResourceNotFoundException("İşletme bulunamadı"));
 
         Service service = new Service();
         service.setId(serviceId);
@@ -79,16 +82,16 @@ public class AppointmentService {
     // Randevu iptal
     public Appointment cancelAppointment(Long appointmentId, Long customerId) {
         Appointment appointment = appointmentRepository.findById(appointmentId)
-            .orElseThrow(() -> new RuntimeException("Randevu bulunamadı"));
+            .orElseThrow(() -> new ResourceNotFoundException("Randevu bulunamadı"));
 
         // Başkasının randevusunu iptal edemez
         if (!appointment.getCustomer().getId().equals(customerId)) {
-            throw new RuntimeException("Bu randevuyu iptal etme yetkiniz yok");
+            throw new UnauthorizedException("Bu randevuyu iptal etme yetkiniz yok");
         }
 
         // Geçmiş randevu iptal edilemez
         if (appointment.getStartTime().isBefore(LocalDateTime.now())) {
-            throw new RuntimeException("Geçmiş randevular iptal edilemez");
+            throw new BusinessRuleException("Geçmiş randevular iptal edilemez");
         }
 
         appointment.setStatus(Appointment.Status.CANCELLED);
