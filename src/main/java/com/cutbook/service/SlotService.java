@@ -35,6 +35,11 @@ public class SlotService {
         LocalDate date = LocalDate.parse(dateStr);
         String dayOfWeek = date.getDayOfWeek().name().substring(0, 3); // Ornek: MON, TUE
 
+        // DÜZELTME: Veritabanı Perşembe için THURS bekliyor!
+        if (dayOfWeek.equals("THU")) {
+            dayOfWeek = "THURS";
+        }
+
         WorkingHours hours = workingHoursRepository.findByBusinessIdAndDayOfWeek(businessId, dayOfWeek)
                 .orElseThrow(() -> new RuntimeException("Secilen gun icin calisma saati bulunamadi"));
 
