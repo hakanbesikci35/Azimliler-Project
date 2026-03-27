@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Box, Typography, Paper, Button, TextField, Grid, Chip, Divider, CircularProgress } from '@mui/material';
+import { Box, Typography, Paper, Button, TextField, Grid, Divider, CircularProgress } from '@mui/material';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import { Business } from '../utils/utils';
 import { Modal } from '../components/Modal';
@@ -11,6 +11,7 @@ export const BusinessDetailsPage: React.FC = () => {
   const [business, setBusiness] = useState<Business | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const [selectedService, setSelectedService] = useState<any>(null);
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [selectedTime, setSelectedTime] = useState<string>('');
   const [availableSlots, setAvailableSlots] = useState<string[]>([]);
@@ -20,7 +21,6 @@ export const BusinessDetailsPage: React.FC = () => {
   const getTodayString = () => new Date().toLocaleDateString('en-CA');
   const todayStr = getTodayString();
 
-  // Isletme detaylarini getir
   useEffect(() => {
     const fetchBusiness = async () => {
       try {
@@ -30,7 +30,7 @@ export const BusinessDetailsPage: React.FC = () => {
           setBusiness(data);
         }
       } catch (error) {
-        console.error("Isletme detaylari cekilemedi", error);
+        console.error(error);
       } finally {
         setLoading(false);
       }
@@ -38,16 +38,15 @@ export const BusinessDetailsPage: React.FC = () => {
     fetchBusiness();
   }, [id]);
 
-  // Secilen tarihe gore bos saatleri hesaplat ve getir
   useEffect(() => {
-    if (!selectedDate) {
+    if (!selectedDate || !selectedService) {
       setAvailableSlots([]);
       return;
     }
     const fetchSlots = async () => {
       setSlotsLoading(true);
       try {
-        const response = await fetch(`http://localhost:8080/api/working-hours/${id}/slots?date=${selectedDate}&duration=60`);
+        const response = await fetch(`http://localhost:8080/api/working-hours/${id}/slots?date=${selectedDate}&duration=${selectedService.durationMinutes}`);
         if (response.ok) {
           const data = await response.json();
           setAvailableSlots(data.availableTimes || []);
@@ -55,25 +54,29 @@ export const BusinessDetailsPage: React.FC = () => {
           setAvailableSlots([]);
         }
       } catch (error) {
-        console.error("Slotlar cekilemedi", error);
         setAvailableSlots([]);
       } finally {
         setSlotsLoading(false);
       }
     };
     fetchSlots();
-  }, [selectedDate, id]);
+  }, [selectedDate, selectedService, id]);
 
-  // Randevu kaydetme istegi gonder
   const handleBooking = async () => {
-    if (!selectedDate || !selectedTime || !business) return;
+    if (!selectedDate || !selectedTime || !business || !selectedService) return;
 
     try {
         const startDateTime = `${selectedDate}T${selectedTime}:00`;
-        const endHour = String(parseInt(selectedTime.split(':')[0]) + 1).padStart(2, '0');
-        const endDateTime = `${selectedDate}T${endHour}:${selectedTime.split(':')[1]}:00`;
+        const [hourStr, minuteStr] = selectedTime.split(':');
+        let totalMinutes = parseInt(hourStr) * 60 + parseInt(minuteStr) + selectedService.durationMinutes;
+        const endHour = Math.floor(totalMinutes / 60).toString().padStart(2, '0');
+        const endMin = (totalMinutes % 60).toString().padStart(2, '0');
+        const endDateTime = `${selectedDate}T${endHour}:${endMin}:00`;
 
-        const response = await fetch(`http://localhost:8080/api/appointments?customerId=1&businessId=${business.id}&serviceId=1&startTime=${startDateTime}&endTime=${endDateTime}`, {
+        const userStr = localStorage.getItem('user');
+        const user = userStr ? JSON.parse(userStr) : { id: 1 };
+
+        const response = await fetch(`http://localhost:8080/api/appointments?customerId=${user.id}&businessId=${business.id}&serviceId=${selectedService.id}&startTime=${startDateTime}&endTime=${endDateTime}`, {
             method: 'POST'
         });
 
@@ -84,7 +87,6 @@ export const BusinessDetailsPage: React.FC = () => {
             alert(`Randevu alınamadı: ${errorData.error}`);
         }
     } catch (error) {
-        console.error("Randevu kaydedilemedi", error);
         alert("Bir hata oluştu.");
     }
   };
@@ -108,17 +110,41 @@ export const BusinessDetailsPage: React.FC = () => {
           <Typography variant="body1" color="text.secondary" paragraph>
             {business.description}
           </Typography>
-          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-            {business.services && business.services.map((service: any, idx: number) => (
-              <Chip key={idx} label={service.name || service} color="secondary" variant="outlined" />
-            ))}
-          </Box>
         </Box>
 
         <Divider sx={{ mb: 4 }} />
 
         <Typography variant="h6" fontWeight="bold" gutterBottom>
-          Tarih ve Saat Seçin
+          1. Hizmet Seçin
+        </Typography>
+
+        <Grid container spacing={2} sx={{ mb: 4 }}>
+          {business.services && business.services.map((service: any) => (
+            <Grid key={service.id} size={{ xs: 12, sm: 6 }}>
+              <Paper
+                elevation={selectedService?.id === service.id ? 4 : 1}
+                sx={{
+                  p: 2,
+                  cursor: 'pointer',
+                  border: selectedService?.id === service.id ? '2px solid #2c3e50' : '2px solid transparent',
+                  borderRadius: 2
+                }}
+                onClick={() => {
+                  setSelectedService(service);
+                  setSelectedTime('');
+                }}
+              >
+                <Typography variant="subtitle1" fontWeight="bold">{service.name}</Typography>
+                <Typography variant="body2" color="text.secondary">
+                  ⏱ {service.durationMinutes} Dakika | ₺ {service.price}
+                </Typography>
+              </Paper>
+            </Grid>
+          ))}
+        </Grid>
+
+        <Typography variant="h6" fontWeight="bold" gutterBottom>
+          2. Tarih ve Saat Seçin
         </Typography>
 
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
@@ -133,9 +159,10 @@ export const BusinessDetailsPage: React.FC = () => {
               setSelectedDate(e.target.value);
               setSelectedTime('');
             }}
+            disabled={!selectedService}
           />
 
-          {selectedDate && (
+          {selectedDate && selectedService && (
             <Box>
               <Typography variant="subtitle2" color="text.secondary" gutterBottom>
                 Uygun Saatler
@@ -145,7 +172,6 @@ export const BusinessDetailsPage: React.FC = () => {
               ) : availableSlots.length > 0 ? (
                 <Grid container spacing={2}>
                   {availableSlots.map((time) => (
-                    // 'item' parametresi kaldirildi
                     <Grid key={time}>
                       <Button
                         variant={selectedTime === time ? "contained" : "outlined"}
@@ -171,7 +197,7 @@ export const BusinessDetailsPage: React.FC = () => {
             color="secondary"
             size="large"
             fullWidth
-            disabled={!selectedDate || !selectedTime}
+            disabled={!selectedDate || !selectedTime || !selectedService}
             onClick={handleBooking}
             sx={{ mt: 2, py: 1.5, fontSize: '1.1rem' }}
           >

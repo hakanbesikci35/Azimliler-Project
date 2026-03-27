@@ -6,6 +6,7 @@ import com.cutbook.model.User;
 import com.cutbook.repository.AppointmentRepository;
 import com.cutbook.repository.BusinessRepository;
 import com.cutbook.repository.UserRepository;
+import com.cutbook.service.impl.AppointmentServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -20,7 +21,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-// AppointmentService is kurallari birim testleri
 @ExtendWith(MockitoExtension.class)
 class AppointmentServiceTest {
 
@@ -34,7 +34,7 @@ class AppointmentServiceTest {
     private BusinessRepository businessRepository;
 
     @InjectMocks
-    private AppointmentService appointmentService;
+    private AppointmentServiceImpl appointmentService;
 
     private User mockCustomer;
     private Business mockBusiness;
@@ -48,7 +48,6 @@ class AppointmentServiceTest {
         mockBusiness.setId(1L);
     }
 
-    // Basarili randevu olusturma testi
     @Test
     void createAppointment_Success() {
         LocalDateTime startTime = LocalDateTime.now().plusDays(1);
@@ -69,7 +68,6 @@ class AppointmentServiceTest {
         verify(appointmentRepository, times(1)).save(any(Appointment.class));
     }
 
-    // Gecmis tarihe randevu alinmak istendiginde hata firlatma testi
     @Test
     void createAppointment_ThrowsException_WhenDateIsInPast() {
         LocalDateTime startTime = LocalDateTime.now().minusDays(1);
@@ -83,7 +81,6 @@ class AppointmentServiceTest {
         verify(appointmentRepository, never()).save(any(Appointment.class));
     }
 
-    // Ayni saate (cakisan) randevu alinmak istendiginde hata firlatma testi
     @Test
     void createAppointment_ThrowsException_WhenConflictExists() {
         LocalDateTime startTime = LocalDateTime.now().plusDays(1);
