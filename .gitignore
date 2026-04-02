@@ -8,3 +8,19 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# IDEs
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.iml
+
+# Build tools
+target/
+.metals/
+.bloop/
+.ammonite/
+out/
