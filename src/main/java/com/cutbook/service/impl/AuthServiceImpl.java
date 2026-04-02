@@ -9,6 +9,7 @@ import com.cutbook.exception.UnauthorizedException;
 import com.cutbook.model.User;
 import com.cutbook.repository.UserRepository;
 import com.cutbook.service.AuthService;
+import com.cutbook.security.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,7 @@ public class AuthServiceImpl implements AuthService {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
+    private final JwtService jwtService;
 
     @Override
     public AuthResponse register(RegisterRequest request) {
@@ -32,7 +34,8 @@ public class AuthServiceImpl implements AuthService {
         user.setCreatedAt(java.time.LocalDateTime.now());
         userRepository.save(user);
 
-        return new AuthResponse("token-placeholder", user.getEmail(), user.getRole().name(), user.getId());
+        String token = jwtService.generateToken(user.getEmail());
+        return new AuthResponse(token, user.getEmail(), user.getRole().name(), user.getId());
     }
 
     @Override
@@ -43,6 +46,7 @@ public class AuthServiceImpl implements AuthService {
             throw new UnauthorizedException("Hatalı şifre");
         }
 
-        return new AuthResponse("token-placeholder", user.getEmail(), user.getRole().name(), user.getId());
+        String token = jwtService.generateToken(user.getEmail());
+        return new AuthResponse(token, user.getEmail(), user.getRole().name(), user.getId());
     }
 }

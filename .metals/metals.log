@@ -1,0 +1,514 @@
+2026.03.27 12:25:40 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main' for client Antigravity 1.107.0.
+2026.03.27 12:25:40 INFO  Memory monitor started
+2026.03.27 12:25:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.27 12:25:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+Mar 27, 2026 12:25:41 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 27, 2026 12:25:41 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.03.27 12:25:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:25:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.03.27 12:25:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.03.27 12:25:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.03.27 12:25:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:25:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:29:26 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:29:26 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:29:26 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:35:30 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java
+2026.03.27 12:35:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:35:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:35:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:36:26 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:36:35 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:38:24 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java
+2026.03.27 12:38:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:38:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:38:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:38:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 12:38:28 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.03.27 15:06:47 INFO  Shutting down server
+2026.03.27 15:06:47 INFO  Memory monitor stopped
+2026.03.27 15:06:47 INFO  shutting down Metals
+2026.03.27 15:06:47 INFO  Exiting server
+2026.03.27 15:50:28 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main' for client Antigravity 1.107.0.
+2026.03.27 15:50:28 INFO  Memory monitor started
+2026.03.27 15:50:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.27 15:50:29 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.03.27 15:50:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.03.27 15:50:32 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.03.27 15:50:37 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java
+2026.03.27 15:50:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.03.27 15:50:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.03.27 15:50:50 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java
+2026.03.27 15:50:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.03.27 15:50:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.03.27 15:50:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.03.27 15:50:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.03.27 15:50:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.03.27 15:51:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.03.27 15:51:05 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java
+2026.03.27 15:51:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 15:51:06 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 15:51:06 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 15:51:08 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:54:41 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main' for client Antigravity 1.107.0.
+2026.03.27 16:54:41 INFO  Memory monitor started
+2026.03.27 16:54:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.27 16:54:45 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:54:46 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:54:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:54:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:54:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:54:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:55:02 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:55:02 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:56:34 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:56:34 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:56:34 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+Mar 27, 2026 4:56:34 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2026.03.27 16:56:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:56:40 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java
+2026.03.27 16:56:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 16:56:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.03.27 17:00:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.03.27 17:00:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.03.27 17:12:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.03.27 18:27:00 INFO  Shutting down server
+2026.03.27 18:27:00 INFO  Memory monitor stopped
+2026.03.27 18:27:00 INFO  shutting down Metals
+2026.03.27 18:27:00 INFO  Exiting server
+2026.03.27 18:27:00 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.04.02 13:19:39 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main' for client Antigravity 1.107.0.
+2026.04.02 13:19:39 INFO  Memory monitor started
+2026.04.02 13:19:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.02 13:19:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:19:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:19:49 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:19:49 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:19:49 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:19:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+Nis 02, 2026 1:19:51 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Nis 02, 2026 1:19:51 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Nis 02, 2026 1:19:51 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.04.02 13:19:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:20:58 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java
+2026.04.02 13:20:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:21:32 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.04.02 13:21:32 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.04.02 13:21:35 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\config\CorsConfig.java. Using fallback presentation compiler.
+2026.04.02 13:21:35 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:21:35 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:21:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:21:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AuthController.java. Using fallback presentation compiler.
+2026.04.02 13:21:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AuthController.java. Using fallback presentation compiler.
+2026.04.02 13:21:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AuthController.java. Using fallback presentation compiler.
+2026.04.02 13:21:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:45 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:46 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:46 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:47 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:21:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\WorkingHoursController.java. Using fallback presentation compiler.
+2026.04.02 13:21:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\WorkingHoursController.java. Using fallback presentation compiler.
+2026.04.02 13:21:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\WorkingHoursController.java. Using fallback presentation compiler.
+2026.04.02 13:21:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\WorkingHoursController.java. Using fallback presentation compiler.
+2026.04.02 13:21:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\AuthResponse.java. Using fallback presentation compiler.
+2026.04.02 13:21:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\AuthResponse.java. Using fallback presentation compiler.
+2026.04.02 13:21:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\AuthResponse.java. Using fallback presentation compiler.
+2026.04.02 13:21:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\BusinessDto.java. Using fallback presentation compiler.
+2026.04.02 13:21:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\BusinessDto.java. Using fallback presentation compiler.
+2026.04.02 13:22:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\BusinessDto.java. Using fallback presentation compiler.
+2026.04.02 13:22:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ErrorResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\LoginRequest.java. Using fallback presentation compiler.
+2026.04.02 13:22:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\LoginRequest.java. Using fallback presentation compiler.
+2026.04.02 13:22:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\LoginRequest.java. Using fallback presentation compiler.
+2026.04.02 13:22:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\RegisterRequest.java. Using fallback presentation compiler.
+2026.04.02 13:22:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\RegisterRequest.java. Using fallback presentation compiler.
+2026.04.02 13:22:04 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\RegisterRequest.java. Using fallback presentation compiler.
+2026.04.02 13:22:04 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ServiceDto.java. Using fallback presentation compiler.
+2026.04.02 13:22:04 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ServiceDto.java. Using fallback presentation compiler.
+2026.04.02 13:22:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\ServiceDto.java. Using fallback presentation compiler.
+2026.04.02 13:22:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:08 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:08 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:10 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java
+2026.04.02 13:22:10 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\dto\SlotResponse.java. Using fallback presentation compiler.
+2026.04.02 13:22:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\BusinessRuleException.java. Using fallback presentation compiler.
+2026.04.02 13:22:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\BusinessRuleException.java. Using fallback presentation compiler.
+2026.04.02 13:22:12 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\BusinessRuleException.java. Using fallback presentation compiler.
+2026.04.02 13:22:12 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\ConflictException.java. Using fallback presentation compiler.
+2026.04.02 13:22:12 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\ConflictException.java. Using fallback presentation compiler.
+2026.04.02 13:22:12 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\ConflictException.java. Using fallback presentation compiler.
+2026.04.02 13:22:12 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.02 13:22:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.02 13:22:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.02 13:22:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\GlobalExceptionHandler.java. Using fallback presentation compiler.
+2026.04.02 13:22:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\ResourceNotFoundException.java. Using fallback presentation compiler.
+2026.04.02 13:22:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\ResourceNotFoundException.java. Using fallback presentation compiler.
+2026.04.02 13:22:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\ResourceNotFoundException.java. Using fallback presentation compiler.
+2026.04.02 13:22:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\UnauthorizedException.java. Using fallback presentation compiler.
+2026.04.02 13:22:19 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\UnauthorizedException.java. Using fallback presentation compiler.
+2026.04.02 13:22:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\exception\UnauthorizedException.java. Using fallback presentation compiler.
+2026.04.02 13:22:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Appointment.java. Using fallback presentation compiler.
+2026.04.02 13:22:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Appointment.java. Using fallback presentation compiler.
+2026.04.02 13:22:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Appointment.java. Using fallback presentation compiler.
+2026.04.02 13:22:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Business.java. Using fallback presentation compiler.
+2026.04.02 13:22:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Business.java. Using fallback presentation compiler.
+2026.04.02 13:22:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Business.java. Using fallback presentation compiler.
+2026.04.02 13:22:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Service.java. Using fallback presentation compiler.
+2026.04.02 13:22:24 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Service.java. Using fallback presentation compiler.
+2026.04.02 13:22:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\Service.java. Using fallback presentation compiler.
+2026.04.02 13:22:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\User.java. Using fallback presentation compiler.
+2026.04.02 13:22:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\User.java. Using fallback presentation compiler.
+2026.04.02 13:22:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\User.java. Using fallback presentation compiler.
+2026.04.02 13:22:30 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\WorkingHours.java. Using fallback presentation compiler.
+2026.04.02 13:22:31 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\WorkingHours.java. Using fallback presentation compiler.
+2026.04.02 13:22:33 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:33 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java
+2026.04.02 13:22:33 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:33 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\AppointmentRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\model\WorkingHours.java. Using fallback presentation compiler.
+2026.04.02 13:22:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\BusinessRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:38 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\BusinessRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\BusinessRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\ServiceRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:38 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\ServiceRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\ServiceRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\UserRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\UserRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\UserRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\WorkingHoursRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\WorkingHoursRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\repository\WorkingHoursRepository.java. Using fallback presentation compiler.
+2026.04.02 13:22:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.02 13:22:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.02 13:22:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.02 13:22:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.02 13:22:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.02 13:22:45 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\SecurityConfig.java. Using fallback presentation compiler.
+2026.04.02 13:22:45 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:45 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:48 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:48 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\BusinessServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:48 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\BusinessServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:48 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\BusinessServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:48 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:49 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\BusinessServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\BusinessServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\BusinessServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\SlotServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:22:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:22:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:22:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:22:58 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:22:59 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:23:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:23:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:23:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:23:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:23:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:23:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:23:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:23:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.04.02 13:23:02 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.04.02 13:23:06 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\CutbookBackendApplication.java. Using fallback presentation compiler.
+2026.04.02 13:25:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:25:09 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java
+2026.04.02 13:25:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:26:35 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:26:35 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java
+2026.04.02 13:26:35 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:26:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:26:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:27:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:27:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:27:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:27:21 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java
+2026.04.02 13:27:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:27:22 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:27:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:27:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:27:42 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java
+2026.04.02 13:27:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:27:47 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:27:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:27:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:28:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:28:07 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java
+2026.04.02 13:28:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:28:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:28:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:28:25 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:28:38 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:28:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:28:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:30:29 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:30:31 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:31 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java
+2026.04.02 13:30:31 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:34 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:34 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:36 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:39 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:40 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java
+2026.04.02 13:30:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:41 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:30:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:43 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:44 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+Nis 02, 2026 1:30:44 ÖS org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 328
+2026.04.02 13:30:44 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:46 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:46 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:46 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:53 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:54 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:30:57 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java
+2026.04.02 13:30:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java:29: error: unmappable character (0x9E) for encoding windows-1254
+     * Son KoÅŸul: startTime > Å?Ä°MDÄ° olan Randevu kayÄ±tlarÄ±nÄ±n listesi dÃ¶ner. */
+                                ^
+C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java:34: error: unmappable character (0x9E) for encoding windows-1254
+     * Son KoÅŸul: startTime < Å?Ä°MDÄ° olan Randevu kayÄ±tlarÄ±nÄ±n listesi dÃ¶ner. */
+                                ^
+2026.04.02 13:31:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:05 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:07 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:13 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:16 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java
+2026.04.02 13:31:16 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java:29: error: unmappable character (0x9E) for encoding windows-1254
+     * Son KoÅŸul: startTime > Å?Ä°MDÄ° olan Randevu kayÄ±tlarÄ±nÄ±n listesi dÃ¶ner. */
+                                ^
+C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java:34: error: unmappable character (0x9E) for encoding windows-1254
+     * Son KoÅŸul: startTime < Å?Ä°MDÄ° olan Randevu kayÄ±tlarÄ±nÄ±n listesi dÃ¶ner. */
+                                ^
+2026.04.02 13:31:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:17 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:17 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:17 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:19 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:19 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:19 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:19 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:36 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:50 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:52 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java
+2026.04.02 13:31:52 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java:29: error: unmappable character (0x9E) for encoding windows-1254
+     * Son KoÅŸul: startTime > Å?Ä°MDÄ° olan Randevu kayÄ±tlarÄ±nÄ±n listesi dÃ¶ner. */
+                                ^
+C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java:34: error: unmappable character (0x9E) for encoding windows-1254
+     * Son KoÅŸul: startTime < Å?Ä°MDÄ° olan Randevu kayÄ±tlarÄ±nÄ±n listesi dÃ¶ner. */
+                                ^
+2026.04.02 13:31:55 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:31:56 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:32:06 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:32:10 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:32:10 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:32:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:32:15 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java
+2026.04.02 13:32:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:32:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:32:15 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:16 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:26 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:26 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:28 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:28 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:29 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java
+2026.04.02 13:32:29 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:29 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:29 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:31 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:31 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:32 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:32 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:32:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:32:37 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java
+2026.04.02 13:32:37 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:32:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:32:42 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java
+2026.04.02 13:32:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:32:42 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:33:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:33:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:33:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:33:14 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:34:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:34:51 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java
+2026.04.02 13:34:51 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\SlotService.java. Using fallback presentation compiler.
+2026.04.02 13:34:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:34:57 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java
+2026.04.02 13:34:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:34:57 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AuthService.java. Using fallback presentation compiler.
+2026.04.02 13:35:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:35:01 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java
+2026.04.02 13:35:01 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\BusinessController.java. Using fallback presentation compiler.
+2026.04.02 13:35:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:35:03 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java
+2026.04.02 13:35:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:35:03 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\AppointmentService.java. Using fallback presentation compiler.
+2026.04.02 13:35:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:35:09 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java
+2026.04.02 13:35:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:35:09 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\controller\AppointmentController.java. Using fallback presentation compiler.
+2026.04.02 13:35:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:11 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java
+2026.04.02 13:35:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:11 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:20 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:20 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java
+2026.04.02 13:35:20 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:20 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:21 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AppointmentServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:35:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:23 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java
+2026.04.02 13:35:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:35:23 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:36:40 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\BusinessService.java. Using fallback presentation compiler.
+2026.04.02 13:36:59 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:36:59 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java
+2026.04.02 13:36:59 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:36:59 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:36:59 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:00 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:10 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:10 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:10 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:37:18 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java
+2026.04.02 13:37:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:37:18 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:37:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:37:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:37:27 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\service\impl\AuthServiceImpl.java. Using fallback presentation compiler.
+2026.04.02 13:37:36 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:47 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
+2026.04.02 13:37:47 WARN  no build target for: C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java
+2026.04.02 13:37:47 INFO  no build target found for C:\Users\uston\OneDrive\Masaüstü\Azimliler-Project-main\src\main\java\com\cutbook\security\JwtService.java. Using fallback presentation compiler.
