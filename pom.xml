@@ -11,6 +11,8 @@
 	<groupId>com.cutbook</groupId>
 	<artifactId>cutbook-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	
 	<name>cutbook-backend</name>
 	<description>Database with springboot api</description>
 
@@ -19,6 +21,12 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -95,6 +103,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+				 <mainClass>com.cutbook.CutbookBackendApplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>

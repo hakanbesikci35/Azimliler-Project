@@ -9,6 +9,7 @@ import com.cutbook.model.Service;
 import com.cutbook.model.User;
 import com.cutbook.repository.AppointmentRepository;
 import com.cutbook.repository.BusinessRepository;
+import com.cutbook.repository.ServiceRepository;
 import com.cutbook.repository.UserRepository;
 import com.cutbook.service.AppointmentService;
 import lombok.RequiredArgsConstructor;
@@ -22,9 +23,11 @@ public class AppointmentServiceImpl implements AppointmentService {
     private final AppointmentRepository appointmentRepository;
     private final UserRepository userRepository;
     private final BusinessRepository businessRepository;
+    private final ServiceRepository serviceRepository;
 
     @Override
-    public Appointment createAppointment(Long customerId, Long businessId, Long serviceId, LocalDateTime startTime, LocalDateTime endTime, String notes) {
+    public Appointment createAppointment(Long customerId, Long businessId, Long serviceId,
+                                         LocalDateTime startTime, LocalDateTime endTime, String notes) {
         if (startTime.isBefore(LocalDateTime.now())) {
             throw new BusinessRuleException("Geçmiş bir tarihe randevu oluşturamazsınız");
         }
@@ -34,12 +37,22 @@ public class AppointmentServiceImpl implements AppointmentService {
 
         User customer = userRepository.findById(customerId)
                 .orElseThrow(() -> new ResourceNotFoundException("Kullanıcı bulunamadı"));
+                
+        if (customer.getRole() == User.Role.OWNER) {
+            throw new BusinessRuleException("İşletme sahipleri randevu alamaz");}
+
+        
 
         Business business = businessRepository.findById(businessId)
                 .orElseThrow(() -> new ResourceNotFoundException("İşletme bulunamadı"));
 
-        Service service = new Service();
-        service.setId(serviceId);
+        Service service = serviceRepository.findById(serviceId)
+                .orElseThrow(() -> new ResourceNotFoundException("Hizmet bulunamadı"));
+
+        // Servisin bu işletmeye ait olduğunu doğrula
+        if (!service.getBusiness().getId().equals(businessId)) {
+            throw new BusinessRuleException("Bu hizmet seçilen işletmeye ait değil");
+        }
 
         Appointment appointment = new Appointment();
         appointment.setCustomer(customer);

@@ -1,11 +1,13 @@
 package com.cutbook.repository;
 
-import com.cutbook.model.Appointment;
+import java.time.LocalDateTime;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import java.time.LocalDateTime;
-import java.util.List;
+
+import com.cutbook.model.Appointment;
 
 public interface AppointmentRepository extends JpaRepository<Appointment, Long> {
 
@@ -27,6 +29,12 @@ public interface AppointmentRepository extends JpaRepository<Appointment, Long> 
     boolean existsConflict(
         @Param("businessId") Long businessId,
         @Param("startTime") LocalDateTime startTime
+    );
+    @Query("SELECT COUNT(a) > 0 FROM Appointment a WHERE a.business.id = :businessId AND a.status = 'PENDING' AND a.startTime < :slotEnd AND a.endTime > :slotStart")
+    boolean existsRangeConflict(
+        @Param("businessId") Long businessId,
+        @Param("slotStart") LocalDateTime slotStart,
+        @Param("slotEnd") LocalDateTime slotEnd
     );
 
     // Müşterinin gelecek randevuları

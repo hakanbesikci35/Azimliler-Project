@@ -26,37 +26,64 @@ public class SlotServiceImpl implements SlotService {
 
     @Override
     public WorkingHours saveWorkingHours(Long businessId, WorkingHours workingHours) {
-        businessRepository.findById(businessId).orElseThrow(() -> new RuntimeException("Isletme bulunamadi"));
+        businessRepository.findById(businessId)
+                .orElseThrow(() -> new RuntimeException("Isletme bulunamadi"));
+
+        // Aynı gün için kayıt varsa güncelle (upsert)
+        WorkingHours existing = workingHoursRepository
+                .findByBusinessIdAndDayOfWeek(businessId, workingHours.getDayOfWeek())
+                .orElse(null);
+
+        if (existing != null) {
+            existing.setStartTime(workingHours.getStartTime());
+            existing.setEndTime(workingHours.getEndTime());
+            return workingHoursRepository.save(existing);
+        }
+
         workingHours.setBusiness(businessRepository.getReferenceById(businessId));
         return workingHoursRepository.save(workingHours);
     }
 
-    @Override
-    public SlotResponse getAvailableSlots(Long businessId, String dateStr, Integer serviceDurationMins) {
-        LocalDate date = LocalDate.parse(dateStr);
-        String dayOfWeek = date.getDayOfWeek().name().substring(0, 3);
+    private static final int SLOT_INTERVAL_MINS = 30;
 
-        if (dayOfWeek.equals("THU")) {
-            dayOfWeek = "THURS";
-        }
+@Override
+public SlotResponse getAvailableSlots(Long businessId, String dateStr, Integer serviceDurationMins) {
+    LocalDate date = LocalDate.parse(dateStr);
+    String dayOfWeek = date.getDayOfWeek().name().substring(0, 3);
 
-        WorkingHours hours = workingHoursRepository.findByBusinessIdAndDayOfWeek(businessId, dayOfWeek)
-                .orElseThrow(() -> new RuntimeException("Secilen gun icin calisma saati bulunamadi"));
+    if (dayOfWeek.equals("THU")) {
+        dayOfWeek = "THURS";
+    }
 
-        List<String> availableTimes = new ArrayList<>();
-        LocalTime currentTime = hours.getStartTime();
-        LocalTime endTime = hours.getEndTime();
+    WorkingHours hours = workingHoursRepository.findByBusinessIdAndDayOfWeek(businessId, dayOfWeek)
+            .orElseThrow(() -> new RuntimeException("Seçilen gün için çalışma saati bulunamadı"));
 
-        while (currentTime.plusMinutes(serviceDurationMins).isBefore(endTime) || currentTime.plusMinutes(serviceDurationMins).equals(endTime)) {
-            LocalDateTime slotStart = LocalDateTime.of(date, currentTime);
-            boolean isConflict = appointmentRepository.existsConflict(businessId, slotStart);
+    if (hours.getStartTime().equals(LocalTime.MIDNIGHT) && hours.getEndTime().equals(LocalTime.MIDNIGHT)) {
+    return new SlotResponse(dateStr, new ArrayList<>());
+}
 
-            if (!isConflict && slotStart.isAfter(LocalDateTime.now())) {
+    List<String> availableTimes = new ArrayList<>();
+    LocalTime currentTime = hours.getStartTime();
+    LocalTime endTime = hours.getEndTime();
+
+    while (true) {
+        LocalTime slotEnd = currentTime.plusMinutes(serviceDurationMins);
+
+        if (slotEnd.isAfter(endTime)) break;
+
+        LocalDateTime slotStart = LocalDateTime.of(date, currentTime);
+        LocalDateTime slotEndDt = LocalDateTime.of(date, slotEnd);
+
+        if (slotStart.isAfter(LocalDateTime.now())) {
+            boolean hasConflict = appointmentRepository.existsRangeConflict(businessId, slotStart, slotEndDt);
+            if (!hasConflict) {
                 availableTimes.add(currentTime.format(DateTimeFormatter.ofPattern("HH:mm")));
             }
-            currentTime = currentTime.plusMinutes(serviceDurationMins);
         }
 
-        return new SlotResponse(dateStr, availableTimes);
+        currentTime = currentTime.plusMinutes(SLOT_INTERVAL_MINS);
+    }
+
+    return new SlotResponse(dateStr, availableTimes);
     }
 }

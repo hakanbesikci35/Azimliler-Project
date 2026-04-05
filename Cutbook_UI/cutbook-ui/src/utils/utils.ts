@@ -16,15 +16,22 @@ export interface Appointment {
 }
 
 export const formatDate = (dateString: string) => {
-  const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-  return new Date(dateString).toLocaleDateString('tr-TR', options);
+  const options: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  return new Date(dateString).toLocaleDateString("tr-TR", options);
 };
 
 export interface ModalProps {
   open: boolean;
   onClose: () => void;
-  title?: React.ReactNode;       
-  children: React.ReactNode;     
-  icon?: React.ReactNode;        
-  actions?: React.ReactNode;     
+  title?: React.ReactNode;
+  children: React.ReactNode;
+  icon?: React.ReactNode;
+  actions?: React.ReactNode;
+}
+interface BusinessCardProps {
+  business: Business;
 }
